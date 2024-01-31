@@ -23,104 +23,89 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Patrick",
+    lastName: "Ward",
+    initials: "pw", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
-        },
-        {
             emoji: '🌎',
             text: 'based in the US'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Full Stack Developer at Initech Global"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "wardp4@udayton.edu"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
-            icon: 'fa fa-instagram',
-            label: 'instagram'
-        },
-        {
-            link: "https://github.com",
-            icon: "fa fa-github",
-            label: 'github'
-        },
-        {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/patrickjohnward/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
+            link: "https://github.com/Patward22/",
+            icon: "fa fa-github",
+            label: 'github'
+        },
+        {
+            link: "https://instagram.com/patward22/",
+            icon: 'fa fa-instagram',
+            label: 'instagram'
         }
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Patrick. I'm a full stack developer for Initech Global. I am studying Mangement Information Systems at the University of Dayton and I am graduating in May 2024. I am interested in being hired for a full time development or security based job to apply all that I have learned in and outside the classroom! I love watching the Chicago Bears, playing videogames, and hanging out with my friends. Feel free to send me an email at wardp4@udayton.edu! Enjoy my portfolio!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'SQL', 'Java'],
+            exposedTo: ['nodejs', 'python', 'ASP.NET']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'Working for the express payments team on both frontend and backend. Working within React developing user interfaces for notifications regarding their payments. Wrote in IntelliJ working mostly on bugs within the express payments software. Worked with APIs within Spring Boot Framework to help bring in new invoicing descriptions for customers invoices.',
+            emoji: 'Full Stack Developer - Initech Global(August 2023-Current)'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'Served as the Scrum Master for the software development team. Aided developers with blockers so they could continue their work. Led Scrum ceremonies in-person and remotely. Created a new interface tracking database action items to help aid our team in reaching target release dates on time. Worked with developers on bug tickets in test environments before production.',
+            emoji: 'Scrum Master - Alticor(May 2023-August 2023)'
         },
         {
-            label: 'movies',
-            emoji: '🎥'
+            label: 'Assisted in transferring over data to a new database. Cleaned up data from the old database so that it could be used in the new database. Provided day-to-day IT support for full-time staff. Worked on streamlining technology within the office by finding solutions to existing technological problems. Worked with onboarding new employees and adding them to our domain. Collaborated with full-time staff on special projects',
+            emoji: 'IT Intern - National Retail Federation(June 2022-August 2022)'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'Working as the Call Center Lead at the University of Dayton IT Service Center. Help over 11,000 students, faculty, and alumni with technology issues that they are experiencing. Responsible for the employees of the call center and the service that they provide to customers. Perform daily auditing and stats on employees within the center to help improve operations and efficiency.',
+            emoji: 'Call Center Lead - University of Dayton(August 2021-August 2023)'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Euchre Counter",
+            live: "https://patward22.github.io/euchre-counter/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Patward22/euchre-counter", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Text Editor",
+            source: "https://github.com/Patward22/JavaTextEditor",
             image: mock2
         },
         {
             title: "Project 3",
-            live: "https://paytonpierce.dev",
+            live: "https://summonersgrid.com/",
             source: "https://github.com/paytonjewell",
             image: mock3
         },
@@ -130,11 +115,5 @@ export const info = {
             source: "https://github.com/paytonjewell",
             image: mock4
         },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
     ]
 }

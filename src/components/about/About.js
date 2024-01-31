@@ -39,12 +39,12 @@ export default function About() {
     function miscText() {
         return <>
             <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                hobbies/interests</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interests <span
+                resume/workexperiences</p>
+            <p><span style={{color: info.baseColor}}>resume/workexperiences <span
                 className={Style.green}>(main)</span> $</span> ls</p>
             <ul>
                 {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
+                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}<br /><br /></Box>{hobby.label}</li>
                 ))}
             </ul>
         </>;
