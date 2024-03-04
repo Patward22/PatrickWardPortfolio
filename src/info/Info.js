@@ -32,10 +32,6 @@ export const info = {
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '🌎',
-            text: 'based in the US'
-        },
-        {
             emoji: "💼",
             text: "Full Stack Developer at Initech Global"
         },
@@ -104,16 +100,10 @@ export const info = {
             image: mock2
         },
         {
-            title: "Project 3",
+            title: "Summoners Grid - Features Added(Grid Outline and autoFocus in searchModal)",
             live: "https://summonersgrid.com/",
-            source: "https://github.com/paytonjewell",
+            source: "https://github.com/Mickers247/SummonersGrid",
             image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
         },
     ]
 }
