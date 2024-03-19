@@ -27,7 +27,7 @@ export const info = {
     lastName: "Ward",
     initials: "pw", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+    selfPortrait: "/PatrickWardPortfolio/static/media/self.84c4f90888242195ef2a.png", // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
@@ -92,18 +92,18 @@ export const info = {
             title: "Euchre Counter",
             live: "https://patward22.github.io/euchre-counter/", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/Patward22/euchre-counter", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            image: "/PatrickWardPortfolio/static/media/mock1.b0b3fa3c425baf4b350f.png"
         },
         {
             title: "Text Editor",
             source: "https://github.com/Patward22/JavaTextEditor",
-            image: mock2
+            image: "/PatrickWardPortfolio/static/media/mock2.02a14b5aad81cc77bb3f.png"
         },
         {
             title: "Summoners Grid - Features Added(Grid Outline and autoFocus in searchModal)",
             live: "https://summonersgrid.com/",
             source: "https://github.com/Mickers247/SummonersGrid",
-            image: mock3
+            image: "/PatrickWardPortfolio/static/media/mock3.4dde9b665d959b013bf8.png"
         },
     ]
 }
